@@ -50,7 +50,10 @@ export default function Navigation() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-lg transform hover:scale-105">
+            <button 
+              onClick={() => scrollToSection('contact')}
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-lg transform hover:scale-105"
+            >
               Get Started
             </button>
           </div>
@@ -73,7 +76,10 @@ export default function Navigation() {
               <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium text-left">Services</button>
               <button onClick={() => scrollToSection('testimonials')} className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium text-left">Testimonials</button>
               <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium text-left">Contact</button>
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 w-full">
+              <button 
+                onClick={() => scrollToSection('contact')}
+                className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 w-full"
+              >
                 Get Started
               </button>
             </div>
