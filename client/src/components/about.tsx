@@ -33,7 +33,7 @@ export default function About() {
           <div className="animate-slide-in-right">
             <img 
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Professional team collaboration" 
+              alt="Professional Team Collaboration" 
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </div>
